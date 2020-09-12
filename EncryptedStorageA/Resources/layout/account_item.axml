@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:id="@+id/mainLayout"
+	android:minHeight="50dp"
+	android:background="#353535">
+	<TextView
+		android:text="Text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:layout_widthPercent="33%"
+		android:minHeight="35dp"
+		android:gravity="center"
+		android:id="@+id/NameAccount"
+		android:layout_alignParentLeft="true"
+		android:layout_centerVertical="true" />
+	<TextView
+		android:text="Url"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:layout_widthPercent="33%"
+		android:minHeight="35dp"
+		android:gravity="center"
+		android:id="@+id/Url"
+		android:layout_centerVertical="true"
+		android:layout_toRightOf="@+id/NameAccount" />
+	<TextView
+		android:text="Login"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:layout_widthPercent="33%"
+		android:minHeight="35dp"
+		android:gravity="center"
+		android:id="@+id/Login"
+		android:layout_centerVertical="true"
+		android:layout_toRightOf="@+id/Url"
+		android:layout_alignParentEnd="true" />
+
+</android.support.percent.PercentRelativeLayout>

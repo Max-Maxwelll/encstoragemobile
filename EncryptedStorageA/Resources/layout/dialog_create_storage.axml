@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:minWidth="200dp"
+	android:background="@color/colorPrimaryDark"
+	android:padding="10dp"
+	android:gravity="center_horizontal">
+	<TextView
+		android:text="СОЗДАТЬ ХРАНИЛИЩЕ"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minHeight="@dimen/height_head_dialog"
+		android:textColor="@color/colorPrimary"
+		android:textSize="@dimen/size_head_dialog"
+		android:id="@+id/textView1"
+		android:gravity="center_horizontal|center_vertical" />
+	<EditText
+		android:hint="Имя"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/Name" />
+	<EditText
+		android:hint="Ключ хранилища"
+		android:inputType="textPassword"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/Key" />
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<Button
+			android:id="@+id/Close"
+			android:text="@string/close"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			style="@style/Button" />
+		<Button
+			android:id="@+id/Submit"
+			android:text="@string/submit"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			style="@style/Button" />
+	</LinearLayout>
+</LinearLayout>

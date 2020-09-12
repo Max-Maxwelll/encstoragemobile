@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Encrypted Storage</string>
+    <string name="action_settings">Settings</string>
+    <string name="signin">Sign in</string>
+    <string name="close">Закрыть</string>
+    <string name="submit">Ок</string>
+</resources>

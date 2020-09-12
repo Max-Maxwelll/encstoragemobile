@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/mainLayout"
+	android:paddingTop="5dp"
+	android:paddingBottom="5dp"
+	android:background="#353535">
+	<TextView
+		android:text="png"
+		android:layout_width="60dp"
+		android:layout_height="60dp"
+		android:background="@color/colorAccent"
+		android:gravity="center"
+		android:id="@+id/Icon"
+		android:layout_alignParentLeft="true"
+		android:layout_centerVertical="true"
+		android:textAllCaps="true" />
+	<TextView
+		android:text="Name"
+		android:layout_width="wrap_content"
+		android:layout_height="60dp"
+		app:layout_widthPercent="33%"
+		android:minHeight="35dp"
+		android:gravity="center|left"
+		android:paddingLeft="10dp"
+		android:id="@+id/Name"
+		android:layout_centerVertical="true"
+		android:layout_toRightOf="@+id/Icon"
+		android:layout_toLeftOf="@+id/Size"/>
+	<TextView
+		android:text="Size"
+		android:layout_width="wrap_content"
+		android:layout_height="60dp"
+		android:minHeight="35dp"
+		app:layout_widthPercent="20%"
+		android:gravity="center"
+		android:background="@color/colorPrimaryDark"
+		android:id="@+id/Size"
+		android:layout_centerVertical="true"
+		android:layout_alignParentEnd="true" />
+
+</android.support.percent.PercentRelativeLayout>
